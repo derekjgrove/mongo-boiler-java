@@ -1,4 +1,4 @@
-package com.mdb.ps.bo.TestCollection;
+package com.mdb.ps.bo.TestCollection.Automatic;
 
 import org.bson.Document;
 
@@ -6,7 +6,7 @@ public class TestCollectionSubDocSchema extends Document {
 
     private final String DET_ALGO = "AEAD_AES_256_CBC_HMAC_SHA_512-Deterministic";
 
-    public TestCollectionSubDocSchema (String dekId) {
+    public TestCollectionSubDocSchema () {
         this.append("bsonType", "object");
         this.append("properties", new Document().append(
             "ssn", new Document().append(

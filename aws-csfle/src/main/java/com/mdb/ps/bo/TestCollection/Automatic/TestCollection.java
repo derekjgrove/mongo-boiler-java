@@ -1,4 +1,4 @@
-package com.mdb.ps.bo.TestCollection;
+package com.mdb.ps.bo.TestCollection.Automatic;
 
 import java.util.*;
 

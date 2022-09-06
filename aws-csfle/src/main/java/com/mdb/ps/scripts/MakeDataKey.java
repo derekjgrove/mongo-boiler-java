@@ -35,9 +35,9 @@ public class MakeDataKey {
         Map<String, Map<String, Object>> kmsProviders = new HashMap<String, Map<String, Object>>();
         String kmsProvider = "aws";
         Map<String, Object> providerDetails = new HashMap<>();
-        providerDetails.put("accessKeyId", new BsonString("<accessKeyId>"));
-        providerDetails.put("secretAccessKey", new BsonString("<secretAccessKey>"));
-        providerDetails.put("sessionToken", new BsonString("<sessionToken>"));
+        providerDetails.put("accessKeyId", new BsonString("<ACCESS_KEY_ID>"));
+        providerDetails.put("secretAccessKey", new BsonString("<SECRET_ACCESS_KEY>"));
+        providerDetails.put("sessionToken", new BsonString("<SESSION_TOKEN>"));
         kmsProviders.put(kmsProvider, providerDetails);
         // end-kmsproviders
 
