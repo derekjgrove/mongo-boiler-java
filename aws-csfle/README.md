@@ -15,6 +15,7 @@ An application testing MongoDB CSFLE capabilities utilizing either automatic or 
 - search value: `"<SESSION_TOKEN>"`, replace with: `your KMS role token`
 - search value: `"<DEK_ID>"`, replace with: `your CSFLE dekId`
 - search value: `"<DEK_UUID>"`, replace with: `your CSFLE dekId MongoDB UUID`
+- search value: `"<mongocryptd_path>"`, replace with: `your local mongocryptd path`
 
 
 
