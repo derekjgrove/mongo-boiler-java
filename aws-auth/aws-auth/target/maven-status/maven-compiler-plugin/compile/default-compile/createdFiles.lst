@@ -1,0 +1,3 @@
+com\mdb\ps\aws\auth\App.class
+com\mdb\ps\aws\auth\App$MongoAwsCredentialSupplier.class
+com\mdb\ps\aws\auth\App$CredentialsSupplier.class
