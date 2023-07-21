@@ -38,7 +38,7 @@ public class App {
     public static void main(String[] args) {
 
         /* Connection Details - this would be a singleton */
-        String connectionString = "mongodb+srv://admin:admin@atlasrs.xzkla.mongodb.net/?retryWrites=true&w=majority";
+        String connectionString = "<URI>";
         ServerApi serverApi = ServerApi.builder()
                 .version(ServerApiVersion.V1)
                 .build();
